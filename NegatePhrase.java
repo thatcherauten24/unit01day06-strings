@@ -3,7 +3,7 @@ public class NegatePhrase {
         
         String phrase = args[0];
         
-        if(phrase.substring(0, 2).equals("not")) {
+        if(phrase.substring(0, 3).equals("not")) {
             System.out.println(phrase);
         } else {
             System.out.println("not " + phrase);
