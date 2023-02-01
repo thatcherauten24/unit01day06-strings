@@ -1,20 +1,16 @@
-// TODO: it asks you to make a new String, that is, create a new variable (not just print the desired output)
 public class ShortLongShort {
     public static void main(String[] args) {
 
         String small = args[0];
         String big = args[1];
-
+        String sbs = args[0];
 
         if(small.length() < big.length()){
-            System.out.println(small + big + small);
-
+            sbs = small + big + small;
+            System.out.println(sbs);
         } else {
-            System.out.println(big + small + big);
+            sbs = big + small + big;
+            System.out.println(sbs);
         }
-
-
-
     }
 }
-//commit
