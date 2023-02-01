@@ -1,3 +1,4 @@
+// TODO: it asks you to make a new String, that is, create a new variable (not just print the desired output)
 public class ShortLongShort {
     public static void main(String[] args) {
 
